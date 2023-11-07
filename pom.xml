@@ -46,8 +46,14 @@
             <artifactId>springdoc-openapi-ui</artifactId>
             <version>1.6.9</version>
         </dependency>
-
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>kaddem11</id>
+            <name>kaddem11</name>
+            <url>http://192.168.100.129:8081/repository/kaddem11//</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
